@@ -1,0 +1,18 @@
+/* --- Query #1: Tablet View (Trợ giúp hiển thị 2 div ngang nhau) --- */
+@media screen and (min-width: 772px) {
+  div {
+    width: 45%;
+    display: inline-block; /* Đảm bảo các div xếp ngang cạnh nhau */
+    vertical-align: top;
+  }
+  img {
+    max-height: 30vh; /* Giới hạn chiều cao ảnh tối đa 30% chiều cao viewport */
+  }
+}
+
+/* --- Query #2: Large Screen View (Trợ giúp hiển thị 3 div ngang nhau) --- */
+@media screen and (min-width: 998px) {
+  div {
+    width: 30%; /* Thay đổi kích thước div thành 30% chiều rộng viewport */
+  }
+}
